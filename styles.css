@@ -1,0 +1,42 @@
+.button {
+    margin: .5rem;
+}
+.coinPurse {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.coin {
+    border-radius: 50%;
+    margin: .5rem;
+    
+}
+
+.penny {
+    height: 3rem;
+    width: 3rem;
+    background: brown;
+    transition: 1s;
+}
+
+.nickel {
+    height: 4.25rem;
+    width: 4.25rem;
+    background: silver;
+    transition: 1s;
+}
+
+.dime {
+    height: 2rem;
+    width: 2rem;
+    background: silver;
+    transition: 1s;
+}
+
+.quarter {
+    height: 8rem;
+    width: 8rem;
+    background: silver;
+    transition: 1s;
+}
